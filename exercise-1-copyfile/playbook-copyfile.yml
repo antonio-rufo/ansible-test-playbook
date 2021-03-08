@@ -4,5 +4,5 @@
   tasks:
     - name: Copy file
       copy:
-        scr: /tmp/test-file.txt
+        src: /tmp/test-file.txt
         dest: /etc/foo.conf
