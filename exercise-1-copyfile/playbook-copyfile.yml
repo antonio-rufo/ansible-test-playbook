@@ -5,4 +5,4 @@
     - name: Copy file
       copy:
         src: /tmp/test-file.txt
-        dest: /etc/foo.conf
+        dest: /home/ec2-user/foo.conf
