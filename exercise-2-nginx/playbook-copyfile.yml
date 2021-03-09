@@ -1,4 +1,11 @@
 -
+  name: Install nginx
+  tasks:
+    - name: Install Nginx
+      yum:
+        name: nginx
+        state: present
+-
   name: Start nginx service
   tasks:
     - name: Copy file
