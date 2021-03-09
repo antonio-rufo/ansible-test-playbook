@@ -1,0 +1,7 @@
+-
+  name: Start nginx service
+  tasks:
+    - name: Copy file
+      service:
+        name: nginx
+        state: started
